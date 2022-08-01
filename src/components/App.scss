@@ -1,0 +1,39 @@
+   html {
+     -webkit-box-sizing: border-box;
+             box-sizing: border-box;
+   }
+   *, *:before, *:after {
+     -webkit-box-sizing: inherit;
+             box-sizing: inherit;
+   }
+   
+   body {
+     margin: 20px 0;
+     padding: 0;
+     line-height: 1;
+     font-size: 16px;
+     font-family: Inter, Arial, Helvetica, sans-serif;
+     color: #202020;
+     background-color: #fbfbfb;
+     font-smooth: always;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+   }
+   
+   .container {
+     max-width: 400px;
+     max-height: 38px;
+     width: 100%;
+     margin: auto;
+   }
+   
+   @mixin styling() {
+     background-color: white;
+     border-color: #ccc;
+     border-radius: 10px;
+     border-style: solid;
+     border-width: 1px;
+     box-shadow: 0 .125rem .25rem rgba(0,0,0,.075) !important;
+   }
+   
+ 

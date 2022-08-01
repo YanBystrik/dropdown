@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.scss';
 import Dropdown from './Dropdown';
-import rusFlag from './images/flags/rus.png';
-import engFlag from './images/flags/eng.png';
-import spainFlag from './images/flags/spain.png';
-import germanyFlag from './images/flags/germany.png';
-import italyFlag from './images/flags/italy.png';
-import polandFlag from './images/flags/poland.png';
+import rusFlag from '../images/flags/rus.svg';
+import engFlag from '../images/flags/eng.svg';
+import spainFlag from '../images/flags/spain.svg';
+import germanyFlag from '../images/flags/germany.svg';
+import italyFlag from '../images/flags/italy.svg';
+import polandFlag from '../images/flags/poland.svg';
 
 const items = [
   {
